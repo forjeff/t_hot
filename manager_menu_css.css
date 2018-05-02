@@ -1,0 +1,25 @@
+.menu{
+    width: 100%;
+}
+.menu table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.menu .btn:hover{
+    background-color: #00b300;
+}
+.menu td{
+    background-color: #008000;
+    font-family: "Arial", "微軟正黑體";
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 0px;
+}
+.menu a{
+    /*padding: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-decoration: white underline;
+}

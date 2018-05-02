@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.table {
+    background-color: white;
+    opacity: 0.9;
+    border-collapse: collapse;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Arial", "微軟正黑體";
+    border: 1px solid white;
+}
+.tr:hover {
+    background-color: #e6fffa;
+}
+.td {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    /*border: 3px solid white;*/
+    padding: auto;
+    text-align: center;
+}
+.th {
+    color: white;
+    background-color: #00cca3;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    /*border: 3px solid white;*/
+    padding: 5px;
+    text-align: center;
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Register Page  - Taoyuan_Hot.com</title>
+	<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<style type="text/css">
+.btn span.glyphicon {    			
+	opacity: 0;	
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-weight: 400; 
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 400px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.set{
+	position:relative;
+    right:0px;
+	text-align: center;
+	font-size: 11px;
+}
+.form-control-22 {
+    display:inline;
+}
+.greenstyle{
+	color: rgb(253, 13, 77);
+}
+	</style>  
+	<script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+    <head> 
+	   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	   <link rel="stylesheet" href="font-awesome.min.css">
+		<!-- Google Fonts -->
+		<title>Admin</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="panel-heading">
+	               <div class="panel-title text-center">
+	               		<h1 class="title">Welcome to Taoyuan hot</h1>
+	               		<hr />
+	               	</div>
+	            </div> 
+				<div class="main-login main-center">
+					<div class="form-group">
+						<label for="userid" class="cols-sm-2 control-label">ID address</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-id-badge" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="id_address" id="id_address" placeholder="your ID address( A12345678)"/>
+							</div>
+						</div>	
+						<div >
+							<button id="search" class="set form-control-22 btn btn-primary login-button" >查詢ID</button>
+							<p id="searchResult" class="form-control-22"></p>
+							<p id="re" class="form-control-22">/</p>
+							<p id="Result" class="form-control-22 greenstyle"></p>
+							<!--inline-->
+						</div>
+					</div>	
+
+					<div class="form-group">
+						<label for="name" class="cols-sm-2 control-label">Your Name</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name"/>
+							</div>
+						</div>
+					</div>		
+
+					<div class="form-group">
+						<label for="birthdayer" class="cols-sm-2 control-label">Birthday</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+								<input type="date" class="form-control" name="birthday" id="birthday"  placeholder="格式如：2014-09-18"/>
+							</div>
+						</div>
+					</div>						
+
+					<div class="form-group">
+						<label for="email" class="cols-sm-2 control-label">Your Email</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+								<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="email" class="cols-sm-2 control-label">Your gender</label>
+						<div class="cols-sm-10">
+							<div class="input-group btn-group" data-toggle="buttons">
+								<span class="input-group-addon"><i class="fa fa-venus-mars" aria-hidden="true"></i></span>
+									<label class="btn btn-success active">
+										<input type="radio" name="options" id="option2" value="男" autocomplete="off" checked>男
+										<span class="glyphicon glyphicon-ok"></span>
+									</label>
+						
+									<label class="btn btn-primary">
+										<input type="radio" name="options" id="option2" value="女" autocomplete="off">女
+										<span class="glyphicon glyphicon-ok"></span>
+									</label>
+						
+									<label class="btn btn-info">
+										<input type="radio" name="options" id="option2"  value ="無" autocomplete="off">隱藏
+										<span class="glyphicon glyphicon-ok"></span>
+									</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="password" class="cols-sm-2 control-label">Password</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+								<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+								<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group ">
+						<p id="createResult"></p>
+						<button type="button" class="btn btn-primary btn-lg btn-block login-button" id="save">Register</button>
+					</div>
+					<div class="login-register">
+						<a href="index.php">Login</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/Javascript">
+			$(document).ready(function() {
+				var check1="f";
+				$('#id_address').blur(function(){
+					var a = new Array('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'X', 'Y', 'W', 'Z', 'I', 'O');
+ 		  	  		  var b = new Array(1, 9, 8, 7, 6, 5, 4, 3, 2, 1);
+					var c = new Array(2);
+  					 var d;   
+					var e;  
+					var f;  
+					var g = 0;   	   				
+					var h = /^[a-z](1|2)\d{8}$/i;
+					check1="f";//清空
+					var tmp=$("#id_address").val();
+               		$(this).css("border-color","rgb(253, 13, 77)");
+  			    	 if (tmp.search(h) == -1){
+						$("#Result").html("格式錯誤"); 
+						return;
+  					 }else{  	     		 
+						   d = tmp.charAt(0).toUpperCase();
+   				 		    f = tmp.charAt(9);
+  				 	 }
+ 				    for (var i = 0; i < 26; i++){
+   				 	   if (d == a[i]){								
+							 e = i + 10; //10
+					 		c[0] = Math.floor(e / 10); //1
+							c[1] = e - (c[0] * 10); //10-(1*10)
+							break;
+						}
+					}
+					for (var i = 0; i < b.length; i++){
+						if (i < 2){								
+							g += c[i] * b[i];
+						}else{
+							g += parseInt(tmp.charAt(i - 1)) * b[i];
+						}
+					}
+					if ((10 - (g % 10)) != f){
+						$("#Result").html("格式不符合"); 
+						return;
+					}				
+					$("#Result").html(""); 
+					$(this).css("border-color","");
+					check1="t";
+            	});
+				$("#search").click(function() {
+					//document.write($("#supervisor").val());
+					$.ajax({
+						url: "Member_handler.php",
+						data: {
+							state: '1',
+							id_address : $("#id_address").val() 
+						},
+						type:"POST",
+						dataType:'text',
+						success: function(message) {
+							$("#searchResult").html(message);
+						},
+						error: function(jqXHR) {
+							document.write("發生錯誤: " + jqXHR.status);
+						}
+					})
+				});
+				$("#save").click(function() {
+					//document.write($('input[name=options]:checked').val());
+       				 $.ajax({
+        			    type: "POST",
+        			    url: "Member_handler.php",
+       				    dataType: "text",
+       				    data: {
+						   state : '2',
+						   id_address : $("#id_address").val(),
+						   name : $("#name").val(),
+         			       email: $("#email").val(),
+						   gender : $('input[name=options]:checked').val(),
+						   birthday: $("#birthday").val(),
+         	    		   password: $("#password").val(),
+         			       confirm: $("#confirm").val(),
+						   check1 : check1,
+        			    },
+         			    success: function(data) {
+         	          		$("#createResult").html(data);
+							//document.getElementById)("createResult").innerHTML=data;
+							 if(data=="fail")
+								window.location.href = "reg_fail.html";
+							if(data=="ok"){
+							   window.location.href ="reg_success.html";
+							}
+         		   		},
+         		   		error: function(jqXHR) {
+         		   		    alert("發生錯誤: " + jqXHR.status);
+         	  			 }
+        			})
+   				 })			
+			});
+		</script>
+	</body>
+</html>
+</body>
+</html>

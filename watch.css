@@ -1,0 +1,43 @@
+.table {
+    background-color: #5F9EA0;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 8px solid #DCDCDC;
+}
+.user {
+    text-decoration: #0000fa underline;
+    padding-top: 5px;
+    text-align: left;
+    color: #0000fa;
+    width: 85%;
+    font-size: 16px;
+}
+.time {
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+.content {
+    /*background-color: ghostwhite;*/
+    font-size: 15px;
+    width: 80%;
+    word-break: break-all;
+}
+.td {
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 15%;
+}
+.reply {
+    margin: auto;
+    width: 100%;
+    height: 160px;
+    resize: none;
+}
+.h1 {
+    color: dodgerblue;
+    text-align: center;
+    text-indent: 50px;
+    font-family: "Tahoma", "微軟正黑體";
+}

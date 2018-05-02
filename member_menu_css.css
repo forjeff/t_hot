@@ -1,0 +1,29 @@
+.m{
+    width: 100%;
+}
+.m table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.m .btner:hover{
+    background-color: #5194c8;
+}
+.m td{
+    background-color: #2a5d84;
+    font-family: "Arial", "微軟正黑體";
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 0px;
+    font-size: 16px !important;
+    width: 120px;
+    height:40px;
+}
+.m a{
+    /*padding: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-decoration: white underline;
+    height:27px;
+}

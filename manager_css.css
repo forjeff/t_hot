@@ -1,0 +1,43 @@
+.table {
+    background-color: white;
+    opacity: 0.9;
+    border-collapse: collapse;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Arial", "微軟正黑體";
+    border: 1px solid white;
+}
+.tr:hover {
+    background-color: #e6fffa;
+}
+.td {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    /*border: 3px solid white;*/
+    padding: 5px;
+    text-align: center;
+}
+.th {
+    color: white;
+    background-color: #00cca3;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    /*border: 3px solid white;*/
+    padding: 5px;
+    text-align: center;
+}
+.td1 {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    /*border: 3px solid white;*/
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+}
+.h1 {
+    color: #1a53ff;
+    text-align: center;
+    text-indent: 50px;
+    font-family: "Arial", "微軟正黑體";
+}
